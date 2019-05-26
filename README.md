@@ -1,3 +1,5 @@
+![](https://github.com/MaxWeiChen/UnityDefineSettingHelper/blob/develop/ReadmeAssets/UnityDefineSettingHelperTute.gif)
+
 <h1>1. Create or Fetch DefineSetting<h1>
 
 ![](https://github.com/MaxWeiChen/UnityDefineSettingHelper/blob/develop/ReadmeAssets/001.png)
