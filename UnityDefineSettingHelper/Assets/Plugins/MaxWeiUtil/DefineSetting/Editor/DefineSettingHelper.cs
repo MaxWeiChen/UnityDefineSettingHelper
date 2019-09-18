@@ -2,7 +2,7 @@
 
 namespace MWUtil
 {
-	public class DefineSettingCreater
+	public class DefineSettingHelper
 	{
 		static private readonly string fileName = "DefineSetting";
 
