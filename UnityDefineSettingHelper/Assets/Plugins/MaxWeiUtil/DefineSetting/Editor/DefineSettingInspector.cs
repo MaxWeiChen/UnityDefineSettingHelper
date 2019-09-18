@@ -334,12 +334,7 @@ namespace MWUtil
 			EditorGUI.BeginDisabledGroup(hasChange);
 			if(GUILayout.Button("Update Defines"))
 			{
-				string newDef = string.Empty;
-				for(int i = 0; i < selectedPlatformSetting.defines.Length; i++)
-				{
-					newDef += selectedPlatformSetting.defines[i] + ";";
-				}
-				PlayerSettings.SetScriptingDefineSymbolsForGroup(buildTargetGroup, newDef);
+				DefineSettingHelper.SetDefineSymbols(buildTargetGroup, selectedPlatformSetting);
 			}
 			EditorGUI.EndDisabledGroup();
 		}
