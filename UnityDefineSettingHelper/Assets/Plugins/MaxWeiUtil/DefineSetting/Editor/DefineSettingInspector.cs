@@ -263,8 +263,8 @@ namespace MWUtil
 			{
 				selectedPlatformSetting.defines = resultDefines.ToArray();
 				UpdateDefineToggles();
+				EditorUtility.SetDirty(root);
 			}
-
 		}
 
 		private void DrawSelectBuildSetting()
